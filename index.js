@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();  
 
 
-app.get('/', async (_req, res) => {
+app.get('/test', async (_req, res) => {
     return res.status(200).json({message: 'ok'})
 })
 
