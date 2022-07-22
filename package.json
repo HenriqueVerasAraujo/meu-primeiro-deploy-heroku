@@ -1,0 +1,25 @@
+{
+  "name": "meu-primeiro-deploy-heroku",
+  "version": "1.0.0",
+  "description": "Exercício de prática Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenriqueVerasAraujo/meu-primeiro-deploy-heroku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenriqueVerasAraujo/meu-primeiro-deploy-heroku/issues"
+  },
+  "homepage": "https://github.com/HenriqueVerasAraujo/meu-primeiro-deploy-heroku#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}
